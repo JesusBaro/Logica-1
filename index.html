@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lógica aula 1</h1>
+        <h2>Console.log()</h2>
+        <p>Exibe se a execução de uma tafera foi feita e é exibida no inspecionar.</p>
+        <h2>Escopo</h2>
+        <p>GLOBAL - variáveis declaradas FORA de uma função, podem ser chamadas novamente no código.</p>
+        <p>LOCAL - variáveis declaradas DENTRO de uma função, usadas somente dentro da função.</p>
+
+        <h2>Variáveis e Constantes</h2>
+        <p>Dados guardados na memória ram que são usados nas taferas.</p>
+        <ul>
+            <li>VAR - tipo de variável que ultimamente gera problemas na memória.</li>
+            <li>LET - criada para resolver os problemas da 'Var'. Pode ter seu valor redefinido.</li>
+            <li>CONST - utilizada para definir dados constantes. Não pode ter seu valor redefinido. </li>
+        </ul>
+        <h4>Declarando Variáveis</h4>
+        <p>LET nomeDaVariavel = Dados</p>
+        <p>let nome = `Jésus`</p>
+        <p>Const ano = 1998</p>
+
+        <p>Variáveis podem ser declaradas usando $ e _ para diferenciar variáveis </p>
+        <p>let nome = `Jésus`</p>
+        <p>let $nome = `Jésus`</p>
+        <p>let _nome = `Jésus`</p>
+
+
+        <h2> Funções</h2>
+        <p>Conjunto de instruções para realizar uma tarefa.</p>
+
+        <h4>Declarando Funções</h4>
+        <p>function nomeDaFunção (paramentro/ nome da variavel ou das variávies){
+            <br>
+            }
+            <br>
+            nomeDaFunção() ------> ativando/invocando a função
+        </p>
+
+        <h2>Tipos de dados </h2>
+        <p>STRINGS - textos. Declarado com ` ` crase, " " aspas dula, ' ' aspas simples. Preferir a crase </p>
+        <p> let animal = `Elefante`</p>
+        <p> let local = 'Recife'</p>
+        <p> let tipo = "mamífero"</p>
+
+        <h3>Template Strings - forma de inserir mais informações em um texto. Apresenta os dados dentro da variável.
+        </h3>
+        <p>`${nomeDaVariavel}`</p>
+
+        <p>NUMERAIS - qualaquer valor numérico é considerado. não precisa de aspas.</p>
+        <p>const cpf = 17954034212</p>
+        <p>let tel = 989998642</p>
+        <p>let n1 = 12</p>
+
+        <p>BOOLEAN - True e False.</p>
+        <p>Contém apenas dois valores. </p>
+        <p>Condicionais booleanas são usadas para decidir uqias trechos do código serão executadas ou repetidas</p>
+        <p>for (let n = 4; n < 4; ) { <br>
+                }
+                <br>
+                //O Código se repete se o valor booleano for `true` for verdadeiro, ou seja menor que 4, assim ele
+                executa todos os número até atingir o 4.
+        </p>
+
+        <p>NULL - representa uma variável vazia. Valor nulo ou vazio. Aponta para um objeto inexistente. Não é uma
+            propriedade de objeto global como undefined.</p>
+        <p>let nome = null</p>
+
+        <p>UNDEFINED - valor não definido. todas as variáveis não iniciada tem valor indefinido automaticamente pelo JS.
+        </p>
+        <p>let nome = </p>
+
+
+        <h2>Operaodres Lógicos</h2>
+        <p>Usam valores booleanos (true e false) para fazer operaçoes lógicas.</p>
+        <p>ex : comparação entre valores</p>
+
+        <h3> && (and, e)</h3>
+        <p>if (variavel A = Valor Booleano A) && (variavel B = Valor Booleano B){} </p>
+        <p> retorna verdadeiro quando os dois valores declarados são verdadeios. </p>
+        <p>Caso contrario retorna falso.</p>
+        <ul>
+            <li>A + B = AB</li>
+            <li>T + T = TRUE</li>
+            <li>T + F = FALSE</li>
+            <li>F + T = FALSE</li>
+            <li>F + F = FALSE</li>
+        </ul>
+
+        <h3> || (or, ou)</h3>
+        <p>if (variavel A = Valor Booleano A) || (variavel B = Valor Booleano B){} </p>
+
+        <p>Reotnra veirdadiero quando uma das informações são verdadeiras.</p>
+        <p>Retorna falso qunado as duas são falsas.</p>
+
+        <h3> ! (not)</h3>
+        <p>inversor / operador de negação</p>
+        <p>realiza operação em apenas um valor</p>
+        <p>let variavel = true</p>
+        <p>console.log( variavel = !true) // retorna false</p>
+        <p>console.log( variavel = !inserir o valor qu ese quer inverter) // retorna false</p>
+
+
+
+    </main>
+    <Script src="script.js"></Script>
+</body>
+
+</html>
